@@ -22,7 +22,7 @@ For example, there is a staircase in the house that is 5 steps high. Davis can s
 2 3
 3 2
 
-Therefore, 13 ways in total to reach the top
+Therefore, there are 13 ways in total to reach the top
 """
 
 
@@ -32,5 +32,8 @@ def stepOptions(n):
 
 
 if __name__ == '__main__':
-    result = stepOptions(3)
-    assert result == 4, 'length of [111, 12, 21, 3] equals 4'
+    result1 = stepOptions(3)
+    assert result1 == 4, 'length of [111, 12, 21, 3] equals 4'
+
+    result2 = stepOptions(5)
+    assert result2 == 13, ''
