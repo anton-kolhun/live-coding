@@ -6,7 +6,7 @@ Given two strings, a and b that may or may not be of the same length, determine 
 deletions required to make  and  anagrams. Any characters can be deleted from either of the strings.
 
 For example, if a = 'cde' and b = 'dcf' we can delete 'e' from string A and 'f' from string B
-so that both remaining strings are  and  which are anagrams.
+so that both remaining strings are 'cd' and 'dc'  which are anagrams.
 """
 
 
